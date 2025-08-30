@@ -187,7 +187,7 @@ const Products = () => {
         <Alert variant="danger" dismissible onClose={() => setError(null)}>
           {error}
         </Alert>
-      )}
+      )}//whyyyyyyyyyyy
 
       {products.length === 0 && !loading ? (
         <Alert variant="info" className="text-center">
